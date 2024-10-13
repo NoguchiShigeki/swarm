@@ -91,7 +91,7 @@ grading = client.run(
     messages=grading_messages
 )
 
-# I put here the grading result for the convinience of the evaluators
+# I put here the grading result for the convenience of the evaluators
 grading_result = grading.messages[-1]["content"]
 
 print("Grading result:", grading.messages[-1]["content"])
